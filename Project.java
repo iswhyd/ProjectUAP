@@ -1,4 +1,4 @@
-package com.example.modul6smster3;
+package com.example.modul6smster3.ProjectUAP;
 
 import javafx.application.Application;
 import javafx.beans.property.SimpleStringProperty;
@@ -83,7 +83,7 @@ public class Project extends Application {
                 // Check if the username already exists in the table
                 if (findUser(data, usernameField.getText()) == null) {
                     if (passwordField.getText().length() < 8) {
-                        showAlert("Password harus memiliki setidaknya 8 karakter!");
+                        showAlert("Password harus memiliki setidaknya 8 karakter!!");
                     } else {
                         User newUser = new User(
                                 usernameField.getText(),
