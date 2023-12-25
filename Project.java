@@ -69,7 +69,7 @@ public class Project extends Application {
                         showAlert("Password salah untuk username ini.");
                     }
                 } else {
-                    showAlert("Username tidak ditemukan");
+                    showAlert("Username tidak ditemukan!");
                 }
             }
         });
